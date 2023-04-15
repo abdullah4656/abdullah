@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+background-color: black;
+color: aliceblue;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.picture{
+    background-image: url(./ferrari.jpeg);
+    height: 400px;
+    background-size: cover;
+background position:centre;
+     display: flex;
+     align-items:flex-end;
+     padding:20px;
+     color: white;
+     font-size :20px;
+
+}
+.logo{
+   height: 70px;
+   margin-right: 20px; 
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+.card{
+    width: 300px;
+    border: 1px solid rgb(46, 44, 40);
+    border border-radius: 5px;
+    padding:20x;
+    margin-bottom:20px;
+
+
+}
+.footer{
+
+background-color: black;
+color: aliceblue;
+display: flex;
+justify-content:space-between ;
+padding: 20px;
+align-items: centre;
+
+
+}
